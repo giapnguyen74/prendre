@@ -4,8 +4,8 @@ function add(a, b) {
 }
 
 function add_assume(a, b) {
-	assume(a, "to be", 1);
-	assume(b, "to be", 2);
+	assume(a, "is", 1);
+	assume(b, "is", 2);
 	return a + b;
 }
 
