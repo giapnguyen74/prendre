@@ -38,14 +38,14 @@ module.exports = {
 };
 ```
 Run without NODE_ENV=production
-```s
+```sh
 node benchmark/index.js
 without prendre x 76,860,933 ops/sec ±1.31% (87 runs sampled)
 with prendre x 29,922,554 ops/sec ±0.96% (83 runs sampled)
 Fastest is without prendre
 ```
 Run with NODE_ENV=production
-```s
+```sh
 NODE_ENV=production node benchmark/index.js
 without prendre x 74,486,295 ops/sec ±1.71% (87 runs sampled)
 with prendre x 73,800,204 ops/sec ±1.67% (81 runs sampled)
